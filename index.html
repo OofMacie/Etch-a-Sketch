@@ -8,22 +8,27 @@
     <title>Etch-A-Pixel</title>
 </head>
 <body>
-    <h1 class="title">Etch-a-Pixel</h1>
-    <div class="canvas-size-selection">
-        <button class="canvas-size">Canvas Size</button>
-    </div>
-            <div class="canvas">
 
-        </div>
+ <div class="etch-container">
+    <div class="header">
+        <button class="canvas-size">Canvas Size</button>
+        <h1 class="title">Etch-a-Pixel</h1>
     </div>
+    <div class="canvas"></div>  <!-- outside header, inside container -->
+
+
+
+
+
 
     <div class="footer">
         <div class="selectors">
           <button class="random">Random</button>
            <button class="clear-canvas">Reset</button>
-           <button class="color">Black</button>
+           <input type="color" value="#000000"class="color">
             </div>
     </div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
